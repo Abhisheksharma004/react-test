@@ -3,7 +3,8 @@ import React from 'react'
 export default function Header() {
   return (
     <>
-      Hello from Header? kaise hain aap
+      <h1>Hello from Header! Prince</h1>
+      <p>Kaise hain aap log?</p>
     </>
   )
 }
