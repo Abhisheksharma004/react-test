@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Header'
 import ToDo from './ToDo'
 import State from './State'
+import Toggel from './Toggel'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,9 @@ function App() {
      <h2>Hello</h2> */}
 
      {/* <ToDo /> */}
-     <State />
+     {/* <State /> */}
+
+     <Toggel />
      
     </>
   )
