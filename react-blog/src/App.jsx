@@ -6,6 +6,7 @@ import Header from './Header'
 import ToDo from './ToDo'
 import State from './State'
 import Toggel from './Toggel'
+import MulCondition from './MulCondition'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,8 +19,8 @@ function App() {
 
      {/* <ToDo /> */}
      {/* <State /> */}
-
-     <Toggel />
+     {/* <Toggel /> */}
+     <MulCondition />
      
     </>
   )

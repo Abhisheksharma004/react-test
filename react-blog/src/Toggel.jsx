@@ -13,10 +13,6 @@ function Toggel() {
             isOn ? <h1>This Is ON</h1> : <h1>This Is OFF</h1>
         }
         </button>
-
-        
-
-
     </>
   )
 }
