@@ -7,6 +7,7 @@ import ToDo from './ToDo'
 import State from './State'
 import Toggel from './Toggel'
 import MulCondition from './MulCondition'
+import UserProps from './UserProps'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,8 @@ function App() {
      {/* <ToDo /> */}
      {/* <State /> */}
      {/* <Toggel /> */}
-     <MulCondition />
+     {/* <MulCondition /> */}
+     <UserProps title="Hello" name="Abhishek" />
      
     </>
   )
