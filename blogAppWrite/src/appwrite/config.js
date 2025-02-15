@@ -109,6 +109,12 @@ export class Service {
             return false
         }
     }
+    async getFilePreview(fileId){
+        return this.bucket.getFilePreview(
+            conf.appwriteBuketId,
+            fileId
+        )
+    }
 }
 
 
